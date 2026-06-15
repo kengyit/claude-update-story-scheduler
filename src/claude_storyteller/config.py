@@ -62,7 +62,7 @@ def load_config() -> Config:
         telegram_chat_id=_require("TELEGRAM_CHAT_ID"),
         github_token=_require("GITHUB_TOKEN"),
         github_username=_require("GITHUB_USERNAME"),
-        state_repo=os.environ.get("STATE_REPO", "kengyit/claude_update_story"),
+        state_repo=os.environ.get("STATE_REPO", "kengyit/claude-update-story-scheduler"),
         state_repo_branch=os.environ.get("STATE_REPO_BRANCH", "main"),
         daily_run_at=os.environ.get("DAILY_RUN_AT", "09:00"),
         timezone=os.environ.get("TIMEZONE", "Asia/Singapore"),
