@@ -31,8 +31,8 @@ launchd  ─►  claude_storyteller (Python, runs forever)
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/kengyit/claude_update_story.git ~/code/claude_update_story
-   cd ~/code/claude_update_story
+   git clone https://github.com/kengyit/claude-update-story-scheduler.git ~/code/claude-update-story-scheduler
+   cd ~/code/claude-update-story-scheduler
    ```
 
 2. **Install uv** (Python project manager):
